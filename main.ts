@@ -5,7 +5,7 @@ input.onPinPressed(TouchPin.P0, function () {
     music.playTone(330, music.beat(BeatFraction.Whole))
 })
 input.onButtonPressed(Button.A, function () {
-    basic.showNumber(2)
+    basic.showString("BT2")
     basic.pause(100)
     basic.clearScreen()
 })
